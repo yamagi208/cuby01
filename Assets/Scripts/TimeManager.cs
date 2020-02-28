@@ -17,7 +17,7 @@ public class TimeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        restTime = 100f - Time.time;
+        restTime = 50f - Time.time;
         displayTime.text = "残り時間(秒):" + restTime ;
     }
 }
