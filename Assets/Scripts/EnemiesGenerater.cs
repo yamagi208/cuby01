@@ -43,7 +43,7 @@ public class EnemiesGenerater : MonoBehaviour
             
             //エネミーにランダム方向に力を加える
             Rigidbody enemyRigidbody = enemy.GetComponent<Rigidbody>();
-            enemyRigidbody.AddForce(new Vector3(Random.Range(-10f,10f),0,Random.Range(-10f,10f)) , ForceMode.VelocityChange);
+            enemyRigidbody.AddForce(new Vector3(Random.Range(-15f,15f),0,Random.Range(-15f,15f)) , ForceMode.VelocityChange);
 
             if(n==5)
             {
