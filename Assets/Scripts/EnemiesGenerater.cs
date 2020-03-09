@@ -43,7 +43,7 @@ public class EnemiesGenerater : MonoBehaviour
             /*To成宮
             生成したenemy下にint型のenemyNumberで数値を与えて流から、enemyNumberを取得すれば大丈夫なはず。加減乗除は与えてないので接触する敵から判断するようにしてほしい。
             */
-            Debug.Log(enemyNumber);
+            //Debug.Log(enemyNumber);
             
             //エネミーにランダム方向に力を加える
             Rigidbody enemyRigidbody = enemy.GetComponent<Rigidbody>();
