@@ -129,7 +129,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 174706834}
-  - component: {fileID: 174706833}
   - component: {fileID: 174706832}
   - component: {fileID: 174706831}
   m_Layer: 0
@@ -171,18 +170,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayTime: {fileID: 1889047220}
   restTime: 100
---- !u!114 &174706833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174706830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d426a4b7447fbc848a094cd6b3954628, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &174706834
 Transform:
   m_ObjectHideFlags: 0
@@ -209,7 +196,7 @@ GameObject:
   - component: {fileID: 243306698}
   - component: {fileID: 243306697}
   m_Layer: 5
-  m_Name: Life
+  m_Name: life
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,6 +474,7 @@ GameObject:
   - component: {fileID: 1239430286}
   - component: {fileID: 1239430285}
   - component: {fileID: 1239430291}
+  - component: {fileID: 1239430292}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -610,6 +598,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1239430292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239430284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d8d36e5429c154f904ab42ff397480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetext: {fileID: 243306697}
+  lifePoint: 100
 --- !u!1 &1411321636
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,8 +886,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 290, y: -100}
-  m_SizeDelta: {x: 400, y: 100}
+  m_AnchoredPosition: {x: 320, y: -90}
+  m_SizeDelta: {x: 320, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889047220
 MonoBehaviour:
@@ -907,7 +909,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -978,7 +980,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 800, y: 450}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
