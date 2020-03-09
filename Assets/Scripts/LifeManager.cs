@@ -7,7 +7,7 @@ public class LifeManager : MonoBehaviour
 {
 
     public Text lifetext;
-    public int lifePoint = 100;
+    public static int lifePoint = 100;
     //public GameObject life_object = null;
     // Start is called before the first frame update
 
