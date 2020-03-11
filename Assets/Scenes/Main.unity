@@ -164,7 +164,6 @@ MonoBehaviour:
   maxSpeedZ: 20
   minEnemyNumber: 1
   maxEnemyNumber: 6
-  ballCount: 0
 --- !u!114 &174706832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,7 +870,6 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 17.241848
-
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1115,7 +1113,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00.00s
+  m_Text: 100.00s
 --- !u!222 &1889047221
 CanvasRenderer:
   m_ObjectHideFlags: 0
