@@ -12,7 +12,7 @@ public class ResetButton : MonoBehaviour
     }
     public void Onclick()
     {
-        TimeManager.restTime += Time.time;
+        //TimeManager.restTime += Time.time;
         SceneManager.LoadScene("GameStart");
     }
     // Update is called once per frame

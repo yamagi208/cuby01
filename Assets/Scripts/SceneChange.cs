@@ -16,11 +16,11 @@ public class SceneChange : MonoBehaviour
     void Update()
     {
 
-        if (LifeManager.lifePoint<100)
+        if (LifeManager.lifePoint<10)
         {
             SceneManager.LoadScene("GameClear");
         }
-        if (LifeManager.lifePoint > 999||TimeManager.restTime<=90.0f){
+        if (LifeManager.lifePoint > 999||TimeManager.restTime<=10.0f){
 
             SceneManager.LoadScene("gameover");
         }

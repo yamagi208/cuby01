@@ -13,6 +13,7 @@ public class LifeManager : MonoBehaviour
 
     void Start()
     {
+        lifePoint = 100;
 
     }
 
