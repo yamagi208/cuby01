@@ -45,7 +45,7 @@ public class EnemiesGenerater : MonoBehaviour
             enemyRigidbody.AddForce(new Vector3(Random.Range(minSpeedX,maxSpeedX),0,Random.Range(minSpeedZ,maxSpeedZ)) , ForceMode.VelocityChange);
 
             //何かしらの条件を満たしたら敵の生成を終了
-            if(n==10)
+            if(n==20)
             {
                 yield break;
             }
