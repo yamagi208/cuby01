@@ -16,7 +16,7 @@ public class SceneChange : MonoBehaviour
     void Update()
     {
 
-        if (LifeManager.lifePoint<10)
+        if (LifeManager.lifePoint<=0)
         {
             SceneManager.LoadScene("GameClear");
         }

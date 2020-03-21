@@ -259,7 +259,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 10
 --- !u!222 &243306698
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -420,27 +420,38 @@ PrefabInstance:
     - target: {fileID: 7496958839447728618, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 57
+      value: 64.125
       objectReference: {fileID: 0}
     - target: {fileID: 7496958839447728618, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 7496958839929078320, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 35
+      value: 39.375
       objectReference: {fileID: 0}
     - target: {fileID: 7496958839929078320, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 58
+      value: 60.709682
       objectReference: {fileID: 0}
+    - target: {fileID: 7496958839929078321, guid: bce66feeb414e41a8b2d22fcb59cdf79,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: a1ca47834cecb4d069f668bd81e9595f,
+        type: 2}
     - target: {fileID: 7496958840307199207, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28
+      value: -32.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496958840307199207, guid: bce66feeb414e41a8b2d22fcb59cdf79,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 35.2625
       objectReference: {fileID: 0}
     - target: {fileID: 7496958840734841818, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
@@ -505,7 +516,7 @@ PrefabInstance:
     - target: {fileID: 7496958841005827671, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 57
+      value: 63.4125
       objectReference: {fileID: 0}
     - target: {fileID: 7496958841005827671, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
@@ -515,12 +526,17 @@ PrefabInstance:
     - target: {fileID: 7496958841005827671, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7496958841278557442, guid: bce66feeb414e41a8b2d22fcb59cdf79,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28
+      value: 31.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496958841278557442, guid: bce66feeb414e41a8b2d22fcb59cdf79,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 34.875
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bce66feeb414e41a8b2d22fcb59cdf79, type: 3}
@@ -1113,7 +1129,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100.00s
+  m_Text: 
 --- !u!222 &1889047221
 CanvasRenderer:
   m_ObjectHideFlags: 0
